@@ -11,8 +11,11 @@ public class Java8Application {
 
 
     public static void main(String[] args) {
-        ArrayListWithJava8 arrayListWithJava8 = new ArrayListWithJava8();
-        arrayListWithJava8.filterAndMapNumbers();
+        LocalDateJava8 local = new LocalDateJava8();
+        local.testInstant();
+        //Current DateTime=2022-10-09T10:59:59.713
+        //Current Timestamp = 2022-10-09T07:30:18.997Z
+
 
     }
 }
